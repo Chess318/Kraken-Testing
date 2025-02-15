@@ -34,8 +34,6 @@ public class RobotContainer {
   private void configureBindings() {
     driverController.x().whileTrue(kraken.set(0.1));
     driverController.y().whileTrue(kraken.set(-0.1));
-    driverController.a().onTrue(kraken.setHeight(100));
-
   }
 
   public void configureDefaultCommands(){
